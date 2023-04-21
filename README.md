@@ -1,9 +1,9 @@
 # SchedulEase
 
-## What is a Genetic Algorithm?
-
 This is a web application for generating timetables for schools and colleges. It is built using Django Rest Framework (DRF) for the backend API and Next.js for the frontend.
 Installation
+
+## What is a Genetic Algorithm?
 
 Genetic algorithms are metaheuristic methods used to solve computational problems which require large search areas for possible solutions. They very often depend on adaptive systems to perform well in changing environments
 The fittest are those with favorable variations, the accumulation of which lead to the evolution of species. The chances for the survival of organisms with injurious variations are rather slim. Thus, evolution is a process of natural selection
