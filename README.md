@@ -1,7 +1,6 @@
 # SchedulEase
 
 This is a web application for generating timetables for schools and colleges. It is built using Django Rest Framework (DRF) for the backend API and Next.js for the frontend.
-Installation
 
 ## What is a Genetic Algorithm?
 
