@@ -21,82 +21,82 @@ The fittest are those with favorable variations, the accumulation of which lead 
 
 ## Backend
 
-    Clone the repository:
-
-```git clone https://github.com/your-username/technix-hack.git
+Clone the repository:
 
 ```
-
-    Navigate to the backend directory:
-
-```cd technix-hack/server
-
+git clone https://github.com/your-username/technix-hack.git
 ```
 
-    Create a virtual environment:
-
-```python -m venv env
+Navigate to the backend directory:
 
 ```
-
-    Activate the virtual environment:
-
-```source env/bin/activate
-
+cd technix-hack/server
 ```
 
-    Install the requirements:
-
-```pip install -r requirements.txt
+Create a virtual environment:
 
 ```
-
-    Create a PostgreSQL database and update the DATABASES setting in timetable/settings.py.
-
-    Run the database migrations:
-
-```python manage.py migrate
-
+python -m venv env
 ```
 
-    Create a superuser:
-
-```python manage.py createsuperuser
+Activate the virtual environment:
 
 ```
-
-    Start the development server:
-
-```python manage.py runserver
-
+source env/bin/activate
 ```
 
-    The backend API should now be accessible at http://localhost:8000/.
+Install the requirements:
+
+```
+pip install -r requirements.txt
+```
+
+Create a PostgreSQL database and update the DATABASES setting in timetable/settings.py.
+
+Run the database migrations:
+
+```
+python manage.py migrate
+```
+
+Create a superuser:
+
+```
+python manage.py createsuperuser
+```
+
+Start the development server:
+
+```
+python manage.py runserver
+```
+
+The backend API should now be accessible at http://localhost:8000/.
 
 ## Frontend
 
-    Navigate to the frontend directory:
-
-```cd ../client
+Navigate to the frontend directory:
 
 ```
-
-    Install the dependencies:
-
-```npm install
-
+cd ../client
 ```
 
-    Create a .env.local file with the following contents:
-
-```NEXT_PUBLIC_API_URL=http://localhost:8000/api/
+Install the dependencies:
 
 ```
-
-    Start the development server:
-
-```npm run dev
-
+npm install
 ```
 
-    The frontend should now be accessible at http://localhost:3000/.
+Create a .env.local file with the following contents:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:8000/api/
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+The frontend should now be accessible at http://localhost:3000/.
